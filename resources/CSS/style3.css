@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+    background: url(/resources/img/creative-copywriting-commercial-text-seo-editing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: min-content;
+    
+}
+#navbar{
+    display: flex;
+    width:100%;
+    background-color:#f3f5f8  
+}
+.navinfo{
+    
+    width: 50%;
+    position:relative;
+    display:flex ;
+    align-items: stretch;
+    align-items: center;
+    justify-content: center;
+    color: black;
+margin:0 5% ;
+}
+.navinfo li{
+    list-style: none;
+    margin:0px 5px ;
+    
+}
+.navinfo li a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none; 
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: all .5s ease;
+}
+.navinfo li a:hover{
+    color:#7f00ff;
+    border-bottom: 5px solid #7f00ff;
+}
+
+#logo{
+    max-width: min-content;
+    margin:0% 5%;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #3d535f;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+b{
+    font-size: 40px;
+    color: #7f00ff;
+
+}
+.menu-nav a{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+#sid-nav{
+
+display: none;
+padding: 100px 30px;
+right: -100%;
+position: absolute;
+width: 400px;
+height: 95%;
+bottom: 0;
+background-color: #b32513;
+margin: 0;
+z-index: 1;
+transition: all .5s ease;
+}
+section:hover #sid-nav{
+    right: 0;
+    transition: all ease-in-out 1s;
+}
+.btn-menu{
+    position:absolute;
+    cursor: pointer;
+    display: none;
+    right: 0;
+}
+
+#sid-nav a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 25px;
+    right: 0;
+    top: 0;
+    color:#111;
+    border-bottom: 2px solid transparent;
+    transition: all 1s ease;
+}
+#sid-nav a:hover{
+    border-bottom: 2px solid #9562ff;
+}
+#contbtn{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #ea4343;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    background-color: #ea4343;
+    color: #111;
+    margin-top: 4px;
+    transition: all ease 0.4s;
+    }
+    #contbtn:hover{
+    background-color: transparent;
+    }
